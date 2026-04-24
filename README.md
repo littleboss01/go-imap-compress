@@ -1,8 +1,8 @@
 # go-imap-compress
 
-[![GoDoc](https://godoc.org/github.com/emersion/go-imap-compress?status.svg)](https://godoc.org/github.com/emersion/go-imap-compress)
+[![GoDoc](https://godoc.org/github.com/littleboss01/go-imap-compress?status.svg)](https://godoc.org/github.com/littleboss01/go-imap-compress)
 
-The [IMAP COMPRESS Extension](https://tools.ietf.org/html/rfc4978) for [go-imap](https://github.com/emersion/go-imap)
+The [IMAP COMPRESS Extension](https://tools.ietf.org/html/rfc4978) for [go-imap](https://github.com/littleboss01/go-imap)
 
 ## Usage
 
@@ -12,8 +12,8 @@ package main
 import (
 		"log"
 
-		"github.com/emersion/go-imap/client"
-		"github.com/emersion/go-imap-compress"
+		"github.com/littleboss01/go-imap/client"
+		"github.com/littleboss01/go-imap-compress"
 )
 
 func main() {

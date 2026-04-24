@@ -4,4 +4,4 @@
 - 保留调试日志：
   - `imap/compress: deflate reader read called`
   - `imap/compress: deflate connection created`
-- 当前仓库依赖 `github.com/emersion/go-imap/client`，需要对应依赖侧提供 `UpgradeWithCommand` 才能完成联调。
+- 当前仓库依赖 `github.com/littleboss01/go-imap/client`，需要对应依赖侧提供 `UpgradeWithCommand` 才能完成联调。

@@ -20,8 +20,8 @@
 
 ## 一、需要手工修改的仓库/模块
 
-- `github.com/emersion/go-imap`（你本地使用的同一版本）
-- `github.com/emersion/go-imap-compress`
+- `github.com/littleboss01/go-imap`（你本地使用的同一版本）
+- `github.com/littleboss01/go-imap-compress`
 
 > 重点：`go-imap` 必须先改，再让 `go-imap-compress` 适配调用。
 

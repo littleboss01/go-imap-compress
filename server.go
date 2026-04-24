@@ -4,7 +4,7 @@ import (
 	"compress/flate"
 	"net"
 
-	"github.com/emersion/go-imap/server"
+	"github.com/littleboss01/go-imap/server"
 )
 
 type Handler struct {

@@ -3,7 +3,7 @@ package compress
 import (
 	"errors"
 
-	"github.com/emersion/go-imap"
+	"github.com/littleboss01/go-imap"
 )
 
 // A COMPRESS command.
