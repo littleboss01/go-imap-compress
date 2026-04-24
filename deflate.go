@@ -18,6 +18,7 @@ type conn struct {
 }
 
 func (c *conn) Read(b []byte) (int, error) {
+	println("imap/compress: deflate reader read called")
 	return c.r.Read(b)
 }
 
@@ -53,6 +54,7 @@ func createDeflateConn(c net.Conn, level int) (net.Conn, error) {
 	if err != nil {
 		return nil, err
 	}
+	println("imap/compress: deflate connection created")
 
 	return &conn{
 		Conn: c,
